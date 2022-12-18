@@ -18,7 +18,7 @@
 * подключить проект к серверу.
 
 ### GitHub Pages
-
+https://sunrena.github.io/russian-travel/index.html
 
 ### Автор
 Елена Петрова

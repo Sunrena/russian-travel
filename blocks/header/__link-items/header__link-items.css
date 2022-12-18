@@ -1,0 +1,4 @@
+.header__link-items {
+    display: flex;
+    justify-content: flex-end;
+}

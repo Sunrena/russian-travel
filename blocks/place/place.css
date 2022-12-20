@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr min-content max-content;
-    gap: 48px 40px;
+    gap: 48px 17px;
 }
 
 .place:first-child {
@@ -14,23 +14,52 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        column-gap: 32px;
+        margin-top: 35px; /*было 32*/
+        max-width: 928px;
+    }
+
+    .place:nth-child(4) {
+        margin-top: 64px;
+    }
+
+    .place:nth-child(5) {
+        margin-top: 79px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        column-gap: 28px;
-        margin-top: 73px;
+        margin-top: 23px;
     }
+
+    .place:nth-child(4) {
+        margin-top: 21px;
+    }
+
+    .place:nth-child(5) {
+        margin-top: 26px;
+    }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        margin-top: 50px;
-        gap: 32px;
+        gap: 32px 0;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;        
+    }
+
+    .place:first-child {
+        padding-top: 0;
+    }
+
+    .place:nth-child(3) {
+        padding-top: 25px;
+    }
+
+    .place:nth-child(4) {
+        padding-top: 25px;
     }
 }
 

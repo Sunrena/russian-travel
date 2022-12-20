@@ -2,6 +2,16 @@
     color: #aaa;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1;
+    line-height: 100%;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__url-heading {
+        margin: 0 0 12px 0;
+    }
+
+    /*.place__url-heading:first-child {
+        margin: 12px 0;
+    }*/
 }

@@ -1,13 +1,14 @@
 .lead {
     width: calc(100% - 2*148px);
     margin: 0 auto;
-    padding-top: 56px;
+    padding-top: 48px;
     color: #fff;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
         width: calc(100% - 2*48px);
+        padding-top: 40px;
     }
 }
 
@@ -15,13 +16,12 @@
   .lead {
       width: 100%;
       margin: 0;
-      padding-top: 48px;
+      padding-top: 40px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-      width: calc(100% - 2*2px);
-      padding-top: 48px;
+      padding-top: 39px;
   }
 }

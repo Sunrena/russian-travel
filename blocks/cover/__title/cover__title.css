@@ -5,7 +5,7 @@
     width: 100%;
     font-weight: 900;
     font-size: 72px;
-    line-height: 1.06;
+    line-height: 106%;
     text-align: center;
     z-index: 1;
 }
@@ -13,14 +13,13 @@
 @media screen and (max-width: 540px) {
     .cover__title {
         font-size: 50px;
-        line-height: 1.1;
+        line-height: 109%;
     }
 }
 
 @media screen and (max-width: 470px) {
     .cover__title {
         max-width: 300px;
-        width: 100%;
         font-size: 44px;
     }
 }
@@ -28,5 +27,7 @@
 @media screen and (max-width: 320px) {
     .cover__title {
         max-width: 288px;
+        font-size: 32px;
+        padding-top: 20px;
     }
 }

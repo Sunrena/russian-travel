@@ -42,7 +42,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 570px) {
     .place {
         gap: 32px 0;
         display: flex;

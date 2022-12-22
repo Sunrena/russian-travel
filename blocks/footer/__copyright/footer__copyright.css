@@ -9,6 +9,13 @@
     text-align: right;
 }
 
+@media screen and (max-width: 570px) {
+    .footer__copyright {
+        text-align: left;
+        padding-top: 40px;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .footer__copyright {
         margin-top: 48px;
@@ -20,5 +27,6 @@
 @media screen and (max-width: 320px) {
     .footer__copyright {
         text-align: left;
+        padding-top: 0;
     }
 }

@@ -25,6 +25,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__numbers/intro__numbers.css);
 
 /**Блок с фото**/
 @import url(../blocks/photo-grid/photo-grid.css);

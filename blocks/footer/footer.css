@@ -2,7 +2,7 @@
     color: #fff;
     width: calc(100% - 2*48px);
     margin: 0 auto;
-    padding: 92px 0 24px 0;
+    padding: 90px 0 24px 0;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-        padding-top: 104px;
+        padding-top: 99px;
     }
 }
 
@@ -18,6 +18,12 @@
     .footer {
         padding-top: 88px;
         width: calc(100% - 2*24px);
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .footer {
+      flex-wrap: wrap;
     }
 }
 
